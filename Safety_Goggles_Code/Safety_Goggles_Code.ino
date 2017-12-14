@@ -44,6 +44,6 @@ void loop() {
   Serial.print(glassesID);
   Serial.println();
   
-  delay(1000);
+  delay(500);
 }
   
