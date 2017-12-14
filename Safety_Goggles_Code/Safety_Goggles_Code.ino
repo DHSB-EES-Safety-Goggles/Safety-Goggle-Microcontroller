@@ -33,12 +33,12 @@ void loop() {
   if (buttonState == HIGH)
   {
     digitalWrite(ledPin, HIGH);  
-    Serial.print("Off");
+    Serial.print("On");
   }
   else
   {
     digitalWrite(ledPin, LOW);  
-    Serial.print("On");
+    Serial.print("Off");
   }
   Serial.print(" Glasses ID: 0");
   Serial.print(glassesID);
